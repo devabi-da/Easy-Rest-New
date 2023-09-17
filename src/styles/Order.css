@@ -1,0 +1,73 @@
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px; /* Add gap between items */
+  justify-items: center;
+}
+
+.product {
+  border: 1px solid hsl(0, 5%, 92%); /* Add a border to the card */
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  margin: 10px; /* Adjust margin for spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Add a background color */
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.product img {
+  max-width: 100%;
+  max-height: 100%; 
+  object-fit: cover; 
+}
+.product .description {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  
+}
+
+.product:hover {
+  transform: scale(1.02); 
+  box-shadow: 30px 50px 60px rgba(0.2, 0.5, 0.2, 0.2); 
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); /* Center the button horizontally */
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+
