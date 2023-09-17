@@ -20,19 +20,19 @@ const Navbar = () => {
         <div className="hiddenLinks">
         <Link to='/'> Home </Link>
         <Link to='/menu'> Menu </Link>
-        <Link to='/Deliveries'> Deliveries </Link>
+        <Link to='/Deliveries'> Deliveries\T.A </Link>
         <Link to='/about'> About </Link>
         <Link to='/contact'> Contact </Link>
-        <Link to='/cart'> <ShoppingCartIcon /> </Link>
+        {/* <Link to='/cart'> <ShoppingCartIcon /> </Link> */}
         </div>
       </div>
       <div className="rightSide">
         <Link to='/'> Home </Link>
         <Link to='/menu'> Menu </Link>
-        <Link to='/Deliveries'> Deliveries </Link>
+        <Link to='/Deliveries'> Deliveries\T.A </Link>
         <Link to='/about'> About </Link>
         <Link to='/contact'> Contact </Link>
-        <Link to='/cart'> <ShoppingCartIcon /> </Link>
+        {/* <Link to='/cart'> <ShoppingCartIcon /> </Link> */}
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
